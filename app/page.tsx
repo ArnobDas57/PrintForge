@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import HeroImage from "@/public/hero-image.png";
 
 export default function Home() {
@@ -26,10 +27,12 @@ export default function Home() {
             </Link>
           </div>
         </div>
-        <img
-          src={HeroImage.src}
-          className="w-[350px] h-auto rounded-lg"
+        <Image
+          src={HeroImage}
           alt="Hero Image"
+          width={350}
+          height={250} // or whatever height matches your design
+          className="rounded-lg"
         />
       </section>
     </main>
