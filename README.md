@@ -28,7 +28,3 @@ This project is designed to help developers learn and practice core Next.js conc
 - 🧱 Reusable components for cards, tags, navbars, and layouts
 - ⚡ Optimized with server/client components for fast rendering
 
----
-
-## 📂 Project Structure
-
